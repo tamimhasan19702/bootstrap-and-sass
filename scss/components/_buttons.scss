@@ -11,6 +11,7 @@
     margin: 0;
     border: 0.1rem solid rgba($white, 0.6);
     background-color: $white;
+    transition: 0.3s all ease-in;
     span{
         position: absolute;
         background-color: $primary;
@@ -20,18 +21,21 @@
         right: 5px;
         transform: translateY(-50%);
         border-radius: 50%;
+        transition: 0.3s all ease-in;
         i{
             color: white;
             font-size: 1rem;
             line-height: 2.5rem;
+            transition: 0.3s all ease-in;
         }
     }
     &:hover{
         @include gradient;
         color: $white;
-
+        transition: 0.3s all ease-in;
         span{
             background-color: rgba($black,0.6);
+            transition: 0.3s all ease-in;
         }
     }
 }
