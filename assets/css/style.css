@@ -10172,9 +10172,29 @@ textarea.form-control-lg {
 }
 @media (min-width: 992px) {
   .display-2-description {
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     display: inline-block;
   }
+}
+
+.heading-line::before {
+  content: "";
+  width: 10rem;
+  height: 0.1rem;
+  display: block;
+  margin: 0 auto;
+  background-color: #9926f0;
+}
+
+.heading-line::after {
+  content: "";
+  width: 2rem;
+  height: 0.2rem;
+  padding-top: 0.5rem;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 1rem;
+  background-color: #9926f0;
 }
 
 .intro-section {
