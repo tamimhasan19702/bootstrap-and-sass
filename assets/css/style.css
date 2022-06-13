@@ -10197,6 +10197,26 @@ textarea.form-control-lg {
   background-color: #9926f0;
 }
 
+.display-3 {
+  font-family: "Poppins", sans sans-serif;
+}
+.display-3-title {
+  font-size: 1.8rem;
+  text-transform: capitalize;
+  font-weight: 600;
+  font-family: "poppins", sans-serif;
+  display: inline-block;
+  background-image: linear-gradient(to right, #9926f0, #d63384);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.border-right {
+  border-right: 0.1rem solid #dee2e6;
+  height: 100%;
+}
+
 .campanies {
   padding: 0 0 5rem 0;
 }
@@ -10263,6 +10283,22 @@ textarea.form-control-lg {
   color: #fff !important;
   text-transform: capitalize;
   font-weight: 600;
+}
+
+.services {
+  position: relative;
+  padding: 1rem 0;
+}
+.services-content {
+  padding: 1rem;
+  margin-top: 1.5rem;
+}
+.services-content .icon {
+  font-size: 2.5rem;
+  color: #9926f0;
+}
+.services-pic {
+  max-width: 100%;
 }
 
 /*# sourceMappingURL=style.css.map */
