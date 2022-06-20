@@ -10218,8 +10218,17 @@ textarea.form-control-lg {
 }
 
 .border-right {
-  border-right: 0.1rem solid #dee2e6;
-  height: 100%;
+  border-right: 0;
+}
+@media (min-width: 576px) {
+  .border-right {
+    border-right: 0.1rem solid #dee2e6;
+    height: 100%;
+  }
+}
+
+.gradient {
+  background: linear-gradient(to right, rgba(153, 38, 240, 0.95), rgba(214, 51, 132, 0.95));
 }
 
 .campanies {
@@ -10238,6 +10247,61 @@ textarea.form-control-lg {
 }
 .campanies-logo-box img:hover {
   filter: grayscale(120);
+}
+
+.footer {
+  padding-top: 1rem;
+  background-color: rgba(0, 0, 0, 0.674);
+}
+
+.contact-box {
+  position: relative;
+}
+.contact-box-icon {
+  width: 4rem;
+  stroke: #9926f0;
+}
+.contact-box-info {
+  padding: 0.4rem;
+}
+.contact-box-info-title {
+  color: #fff;
+  text-decoration: none;
+}
+.get-started {
+  padding: 4rem 0;
+  background-color: #e9ecef;
+}
+
+.cta-info {
+  padding: 3rem;
+  margin: 1rem 0;
+}
+.cta-info-list {
+  position: relative;
+  list-style-type: none;
+  display: block;
+  padding-top: 0.5rem;
+  padding-left: 0.5rem;
+  margin-bottom: 0.7rem;
+}
+.cta-info-list li:before {
+  font-family: "Font Awesome 5 Free";
+  content: "\f00c";
+  font-weight: 600;
+}
+
+.form {
+  padding: 3rem;
+}
+.form button {
+  border: none;
+  color: #fff;
+}
+.form button a {
+  color: #fff;
+  text-decoration: none;
+  text-transform: capitalize;
 }
 
 .intro-section {
