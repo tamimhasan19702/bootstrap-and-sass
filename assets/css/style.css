@@ -10251,15 +10251,21 @@ textarea.form-control-lg {
 
 .footer {
   padding-top: 1rem;
-  background-color: rgba(0, 0, 0, 0.674);
+  background-color: rgba(0, 0, 0, 0.874);
 }
 
 .contact-box {
   position: relative;
 }
 .contact-box-icon {
-  width: 4rem;
+  width: 2rem;
   stroke: #9926f0;
+  padding-top: 0.5rem;
+}
+@media (min-width: 576px) {
+  .contact-box-icon {
+    width: 4rem;
+  }
 }
 .contact-box-info {
   padding: 0.4rem;
@@ -10267,7 +10273,70 @@ textarea.form-control-lg {
 .contact-box-info-title {
   color: #fff;
   text-decoration: none;
+  font-size: 1rem;
 }
+@media (min-width: 576px) {
+  .contact-box-info-title {
+    font-size: 1.4rem;
+  }
+}
+.contact-box-info-subtitle {
+  color: #dee2e6;
+  text-decoration: none;
+  font-size: 0.8rem;
+}
+@media (min-width: 576px) {
+  .contact-box-info-subtitle {
+    font-size: 1rem;
+  }
+}
+
+.footer-sm a {
+  color: #fff;
+}
+.footer-sm a i {
+  font-size: 1rem;
+  margin-left: 1rem;
+}
+@media (min-width: 576px) {
+  .footer-sm a i {
+    font-size: 1.6rem;
+  }
+}
+
+.company-list {
+  display: block;
+  list-style-type: none;
+  position: relative;
+}
+.company-list li {
+  margin-bottom: 0.5rem;
+  text-decoration: none;
+}
+.company-list li a {
+  color: #fff;
+  text-decoration: none;
+}
+.company-list li a:hover {
+  color: #9926f0;
+}
+
+.footer-bottom {
+  background-color: #000;
+}
+.footer-bottom-copyright {
+  color: #6c757d;
+  font-weight: 400;
+}
+.footer-bottom-copyright a {
+  color: #dee2e6;
+  text-decoration: none;
+}
+.footer-bottom-copyright a:hover {
+  color: #9926f0;
+  text-decoration: underline;
+}
+
 .get-started {
   padding: 4rem 0;
   background-color: #e9ecef;
